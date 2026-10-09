@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "melbourne-north",
+  "version": "20261010",
+  "label": "Melbourne-North",
+  "bbox": [
+    144.88,
+    -37.73,
+    145.06,
+    -37.62
+  ],
+  "counts": {
+    "addresses": 180083,
+    "places": 9061
+  },
+  "sourceDates": {
+    "overture": "2026-09-23.1",
+    "assetCommit": "028c18f713baecad011301ff7a69acc39bcc2ae7",
+    "styleVersion": "5.7.2",
+    "mapBuild": "20261009",
+    "assetsSha256": "57e40e8c512bd8042d0a3a251f19d0d1c8523ad963c666c3c6643bada4dc92d0",
+    "resourceFiles": 777
+  },
+  "capabilities": {
+    "map": true,
+    "search": true,
+    "routing": false
+  },
+  "attribution": "Regional map: \u00a9 OpenStreetMap contributors; Protomaps. ODbL produced work.\nhttps://www.openstreetmap.org/copyright\nhttps://opendatacommons.org/licenses/odbl/1-0/\nPlaces: Overture Maps Foundation. CDLA-Permissive-2.0. Public POI records filtered and indexed.\nhttps://cdla.dev/permissive-2-0/\nAustralian addresses: G-NAF \u00a9 Geoscape Australia licensed by the Commonwealth of Australia.\nDistributed by OpenAddresses via Overture. Reindexed for navigation search.\nUse of addresses for sending mail requires verification against a secondary source.\nhttps://geoscape.com.au/wp-content/uploads/2024/08/EULA-G-NAF-Core-1.pdf\nG-NAF is provided as-is, without warranty of accuracy or fitness. See the linked licence, Sections 3 and 5.\nFonts: Noto Sans, SIL Open Font License; see fonts/OFL.txt.\nProtomaps styles: BSD-3-Clause; see LICENSE_STYLE.txt.\nNo endorsement by the data providers. Coverage and business details can be incomplete.\n",
+  "sources": {
+    "places": {
+      "sha256": "2a4d5b1b1a3ef7e0f57430d915c51567c426e7c6bf0c461a6369b15a5431db7b",
+      "bytes": 17741558
+    },
+    "addresses": {
+      "sha256": "95225f6020be4eb3153ac41e8d96a0a70248c6d9e6c9d6f3b60d2d14e2dfe4a2",
+      "bytes": 100698906
+    }
+  },
+  "sha256": "016deb6608901439a880455c21b89a870967ff5aad622146957f8bb9fc9ea9d0",
+  "bytes": 36649224,
+  "installedBytes": 115629205,
+  "filename": "melbourne-north-20261010.zip"
+}
