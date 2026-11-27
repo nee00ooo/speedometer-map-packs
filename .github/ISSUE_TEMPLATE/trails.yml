@@ -1,0 +1,38 @@
+name: "Suggest a trail or trail update"
+description: "Nominate a public walk, submit a route correction or share dated trail advice."
+title: "[Trail] "
+labels: ["trail-contribution", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: "Your GitHub username and this report will be public. Leave out home or work addresses, personal journeys, contact details and sensitive wildlife locations."
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "Type of report"
+      options: ["New named trail","Route or facility correction","Access, closure or safety advice","Correction to a previous report"]
+    validations:
+      required: true
+  - type: input
+    id: place
+    attributes:
+      label: "Trail name, region and country"
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: "What should walkers know?"
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: "Public map source, licence and date checked"
+    validations:
+      required: false
+  - type: textarea
+    id: geometry
+    attributes:
+      label: "Optional route geometry"
+      description: "Use a public map link, or attach a ZIP containing a route-only GPX that you have permission to share. Check the start, end and any diversions before attaching. State the source and redistribution permission above."

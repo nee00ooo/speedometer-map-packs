@@ -1,0 +1,26 @@
+name: "Map or address correction"
+description: "Suggest a change to a mapped place, street, entrance or facility."
+title: "[Map] "
+labels: ["map-correction", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: "Your GitHub username and this report will be public. Leave out home or work addresses, personal journeys, contact details and sensitive wildlife locations."
+  - type: input
+    id: place
+    attributes:
+      label: "Place or map reference"
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: "What is wrong and what should change?"
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: "Map or official source and date observed"
+    validations:
+      required: false

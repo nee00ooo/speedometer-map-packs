@@ -1,0 +1,33 @@
+name: "Road conditions and speed limits"
+description: "Send road information to the studio for review."
+title: "[Road] "
+labels: ["road-report", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: "Your GitHub username and this report will be public. Leave out home or work addresses, personal journeys, contact details and sensitive wildlife locations."
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "Type of report"
+      options: ["Signed speed limit","Road closure","Road surface, debris or other hazard","Fixed camera","Temporary or mobile camera","Condition has cleared"]
+    validations:
+      required: true
+  - type: input
+    id: place
+    attributes:
+      label: "Road, direction, nearest public junction and country"
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: "What did you observe?"
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: "Date, local time, time zone and expiry, if known"
+    validations:
+      required: true

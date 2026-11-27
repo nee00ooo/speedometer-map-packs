@@ -1,29 +1,17 @@
-# Speedometer Pro regional data downloads
+# Waystitch map downloads
 
 Public, licensed map and search data for downloadable regions. This repository
 contains no app source code, credentials, personal journeys or user search logs.
 
-## Coverage
+## Available downloads
 
-The first validation pack covers northern Melbourne, Australia, only. It is not
-an Australia-wide or worldwide offline map. Online search in Speedometer Pro is
-not restricted to these download regions. Additional countries and regions need
-their own verified extracts and source-licence checks before appearing here.
+The [current country catalog](catalog/v1.json) lists published editions, coverage, download and installed sizes, search data and routing profiles. In Waystitch, open **Offline maps** to choose a country. The original northern Melbourne pilot is retained as a historical regional edition.
 
-Each release contains an immutable ZIP and a manifest with its geographic bounds,
-source dates, record counts, compressed and installed sizes, and SHA-256 digest.
-The app pins approved digests. Do not trust a modified ZIP or its own manifest to
-authorize installation. Download only a region whose bounds include your trip.
+Country downloads include map tiles, place search, the address coverage described in each entry and the indicated driving or walking graph. The app checks the download against its published digest. Live traffic and temporary road alerts require separate data.
 
-## What is included
+## Community
 
-- Protomaps/OpenStreetMap visual vector tiles, local styles, fonts and sprites.
-- A disk-backed place/address search index from licensed Overture source records.
-- Attribution and licence notices, also available inside each ZIP.
-
-These packs provide offline map display and search, **not offline routing or
-live traffic**. Map data may omit a business, unit, entrance or street. Coordinates
-do not establish a legal/safe driveway or lane. Check results before travelling.
+[Open the Waystitch review dashboard](community/README.md) to submit a trail, correct a map, report road information or give app feedback. You can read the reports without signing in.
 
 ## Licences and sources
 

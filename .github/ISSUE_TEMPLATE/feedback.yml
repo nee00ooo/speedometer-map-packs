@@ -1,0 +1,26 @@
+name: "App feedback"
+description: "Describe a problem or improvement for Waystitch."
+title: "[App] "
+labels: ["app-feedback", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: "Your GitHub username and this report will be public. Leave out home or work addresses, personal journeys, contact details and sensitive wildlife locations."
+  - type: input
+    id: place
+    attributes:
+      label: "App screen and version, if known"
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: "What happened, or what would make this easier?"
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: "Public steps that help us check the report"
+    validations:
+      required: false
