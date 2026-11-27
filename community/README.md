@@ -11,7 +11,7 @@ Anyone can read the reports below. Choose a form to post or comment using your G
 
 [Awaiting review](https://github.com/nee00ooo/speedometer-map-packs/issues?q=is%3Aissue%20is%3Aopen%20label%3Aneeds-review) · [More evidence requested](https://github.com/nee00ooo/speedometer-map-packs/issues?q=is%3Aissue%20is%3Aopen%20label%3Aneeds-evidence) · [Published changes](https://github.com/nee00ooo/speedometer-map-packs/issues?q=is%3Aissue%20label%3Apublished) · [My submissions](https://github.com/nee00ooo/speedometer-map-packs/issues?q=is%3Aissue%20author%3A%40me)
 
-To see someone's contributions, open one of their reports and use the **Author** filter in Issues, or enter `is:issue author:USERNAME`. Contributors with repository triage or write access can change review labels. Other contributors can supply sources, confirm observations or propose corrections in a reply.
+To see someone's contributions, open one of their reports and use the **Author** filter in Issues, or enter `is:issue author:USERNAME`. The studio manages the review labels and publishes accepted changes. Other contributors can supply sources, confirm observations or propose corrections in a reply.
 
 ## What reaches the app
 
