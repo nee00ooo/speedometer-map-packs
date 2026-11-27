@@ -1,5 +1,9 @@
 # Share a trail with a friend
 
+Follow the Southern Ridges in Singapore, then see how to send a friend a private GPX or a trailhead pin. [Watch the Singapore trail guide](https://youtu.be/XG-FD2HZ9hE)
+
+For a holiday across several countries, record walking, rides, flights and boat trips in Journey Tracker. [Watch the Journey Tracker guide](https://youtu.be/gn8kBziDh_M)
+
 ## Find a walk before travelling
 
 Open **Trails & GPX** and search for **Southern Ridges Walk** in Singapore. Open the named route and its map, then save the trail while you have internet. The saved line can be reopened offline. Download an available country map before departure if you also need detailed streets or paths offline. A gap between mapped sections stays visible.
